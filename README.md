@@ -18,3 +18,4 @@ A better option to getting the conn string would be ConfigurationManager.Connect
 The use of the ConfigurationManager.AppSettings["LogFileDirectory"] is missing the .ToString() whe we want to get info from the AppSettings
 In the File.WriteAllText method, the DateTime.Now.ToShortDateString() is breaking the file creation because it has backslash characteres, invalid for a filename
 
+The Belatrix.Logger project was created using refactoring and redesign the solution, The Logger.Tests project was added for cover some unit testing
