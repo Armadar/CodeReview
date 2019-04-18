@@ -3,7 +3,7 @@
 Feedback / Errors
 -----------------
 
-A single class to handle 3 different responsabilities
+The original class JobLogger handle 3 different responsibilities breaking the "Single Responsibility" principle from SOLID
 There is a duplicated parameter name called "message" in the LogMessage method
 
 The message variable is being used as a boolean with the operator "!"
